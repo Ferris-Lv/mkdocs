@@ -48,8 +48,8 @@ extra:
       name: GitHub | 吕泉成
     - icon: fontawesome/brands/qq
       link: https://ferris-lv.github.io/
-     name: QQ | 吕泉成
-    - icon: fontawesome/brands/qq
+      name: QQ | 吕泉成
+    - icon: fontawesome/brands/weixin
       link: https://ferris-lv.github.io/
       name: 微信 | 吕泉成
 
