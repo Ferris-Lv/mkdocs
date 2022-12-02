@@ -59,7 +59,8 @@ nav:
     - 关于git:
       - 认识终端、Shell、命令行: shell_learn.md
       - git的使用: git_use.md
-  - 关于: index.md
+  - 关于:
+    - index.md # 使用两个index 这样子左上角第一次打开会是所有Tab 而不是ABOUT
     - 基本信息: about.md
 
 # [Extensions]
