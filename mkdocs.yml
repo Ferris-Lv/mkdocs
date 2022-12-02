@@ -46,13 +46,21 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/Ferris-Lv
       name: GitHub | 吕泉成
+    - icon: fontawesome/brands/qq
+      link: https://ferris-lv.github.io/
+     name: QQ | 吕泉成
+    - icon: fontawesome/brands/qq
+      link: https://ferris-lv.github.io/
+      name: 微信 | 吕泉成
 
 # [Navigtion]
 nav:
-  - 讲稿: 
-    - 鸡你太美: shabi.md 
+  - 电脑: 
+     - 关于git:
+       - 认识终端、Shell、命令行: shell_learn.md
+       - git的使用: git_use.md
   - 关于: index.md
-    - 基本信息: about.md
+     - 基本信息: about.md
 
 # [Extensions]
 plugins:
