@@ -1,4 +1,4 @@
-# 安装,配置git
+## 安装,配置git
  - macOS自带Git，使用下方命令查看Git的版本
 ```
 git --version
@@ -20,8 +20,8 @@ git config --global user.email <your email>
  git init
  ```
 
-# git的使用
-- git的基本命令符：
+## git的使用
+### git的基本命令符：
 
   - 工作区→暂存区
   ```
@@ -31,9 +31,9 @@ git config --global user.email <your email>
   ```
   git commit -m "messege"
   ```
-  ```
-  注：<message>记录你这次commit修改的主要内容。使用英文或中文都可以，个人推荐使用英文
-  ```
+!!! note
+  
+    注：<message>记录你这次commit修改的主要内容。使用英文或中文都可以，个人推荐使用英文
   - 查看日志
   ```
   git log
@@ -47,22 +47,24 @@ git config --global user.email <your email>
   touch .gitignore
   vim .gitignore
   ```
-  ```
-  注：vim添加好要屏蔽的后缀后：
-    1.按esc退出编辑
-    2.：wq   保存并退出，(不要问我为啥知道的)
-  ```
-
-# 远程仓库
-- 连接远程仓库
+!!! note
+    vim编辑好后按esc退出，之后按 :wq 退出（别问我为啥知道的）
+## 远程仓库
+### 连接远程仓库
 ```
 查看SSH 公钥：cat ~/.ssh/id_rsa.pub
 
 如果没有需要先使用命令ssh-keygen -o生成
 ```
-- 将本地仓库上传到代码托管平台\
-1.先连接git的仓库(具体不多讲)\
-2.用命令上传项目
-```
-git push
-```
+### 将本地仓库上传到代码托管平台  
+- 1.先连接git的仓库  
+  打开GitHub，创建一个新的仓库（Repository），什么都不添加，之后会出现一个页面，在终端输入如下： 
+  ```
+  git remote add origin <页面显示的网址>
+  git branch -M main 
+  git push -u origin main 
+  ```
+- 2.用命令上传项目
+  ```
+  git push
+  ```

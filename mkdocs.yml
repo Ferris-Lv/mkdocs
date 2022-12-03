@@ -37,7 +37,6 @@ repo_url: https://github.com/Ferris-Lv# 右上角点击跳转的链接
 repo_name: Ferris-Lv.github.io # 右上角的名字
 ## [bottom-left corner]
 copyright: Copyright &copy; 2022 吕泉成 # 左下角的版权声明
-copyright: Copyright &copy; 感谢[杨希杰](https://github.com/Yang-Xijie/)提供帮助
 ## [bottom-right corner]
 extra:
   social: # icons
@@ -62,8 +61,8 @@ nav:
       - git的使用: git_use.md
   - 关于:
     - index.md # 使用两个index 这样子左上角第一次打开会是所有Tab 而不是ABOUT
-    - 基本信息: about_me.md
-    - 站点更新: about_lite.md
+    - 个人介绍: about_me.md
+    - 更新日志: about_lite.md
 
 # [Extensions]
 plugins:
