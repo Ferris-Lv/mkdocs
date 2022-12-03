@@ -37,6 +37,7 @@ repo_url: https://github.com/Ferris-Lv# 右上角点击跳转的链接
 repo_name: Ferris-Lv.github.io # 右上角的名字
 ## [bottom-left corner]
 copyright: Copyright &copy; 2022 吕泉成 # 左下角的版权声明
+copyright: Copyright &copy; 感谢[杨希杰](https://github.com/Yang-Xijie/)提供帮助
 ## [bottom-right corner]
 extra:
   social: # icons
