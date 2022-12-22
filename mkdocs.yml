@@ -60,10 +60,10 @@ nav:
       - 认识终端、Shell、命令行: shell_learn.md
       - git的使用: git_use.md
   - 关于:
-    - about_build.md # 使用两个index 这样子左上角第一次打开会是所有Tab 而不是ABOUT
-    - 个人介绍: about_me.md
-    - 网站构建: about_build.md
-    - 更新日志: about_lite.md
+    - about/about_index.md # 使用两个index 这样子左上角第一次打开会是所有Tab 而不是ABOUT
+    - 个人介绍: about/about_me.md
+    - 网站构建: about/about_build.md
+    - 更新日志: about/about_lite.md
 
 # [Extensions]
 plugins:
