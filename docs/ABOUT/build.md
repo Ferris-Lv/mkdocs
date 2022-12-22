@@ -2,7 +2,7 @@
 ## 鸣谢
 - 感谢[杨希杰](https://space.bilibili.com/24502827)为搭建网站提供技术帮助  
 !!! note "友情链接"
-    - [杨希杰-Github](https://github.com/)
+    - [杨希杰-Github](https://github.com/Yang-Xijie)
     - [杨希杰-bilibili](https://space.bilibili.com/24502827)
 
 ## 介绍
