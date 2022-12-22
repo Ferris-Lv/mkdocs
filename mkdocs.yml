@@ -57,13 +57,13 @@ extra:
 nav:
   - 电脑: 
     - 关于git:
-      - 认识终端、Shell、命令行: shell_learn.md
-      - git的使用: git_use.md
+      - 认识终端、Shell、命令行: COMPUTER/shell_learn.md
+      - git的使用: COMPUTER/git_use.md
   - 关于:
-    - about/about_index.md # 使用两个index 这样子左上角第一次打开会是所有Tab 而不是ABOUT
-    - 个人介绍: about/about_me.md
-    - 网站构建: about/about_build.md
-    - 更新日志: about/about_lite.md
+    - ABOUT/index.md # 使用两个index 这样子左上角第一次打开会是所有Tab 而不是ABOUT
+    - 个人介绍: ABOUT/me.md
+    - 网站构建: ABOUT/build.md
+    - 更新日志: ABOUT/lite.md
 
 # [Extensions]
 plugins:
